@@ -53,11 +53,11 @@ equivariant arguments in Section 6. The manuscript's proof is self-contained.
 
 ## Files and recorded outputs
 
-- [`verification/degree-six.py`](verification/degree-six.py): executable verification.
-- [`verification/README.md`](verification/README.md): export instructions.
-- [`verification/degree-six-check.txt`](verification/degree-six-check.txt): complete recorded output.
-- [`verification/degree-six-matrices.txt`](verification/degree-six-matrices.txt): exact matrices.
-- [`CITATION.cff`](CITATION.cff): citation metadata for this code release.
+- [`verification/degree-six.py`](https://github.com/VentiMath/hurwitz-lattice/blob/2454ba1a60731df582cbd722adbe94b77c72850f/verification/degree-six.py): executable verification.
+- [`verification/README.md`](https://github.com/VentiMath/hurwitz-lattice/blob/2454ba1a60731df582cbd722adbe94b77c72850f/verification/README.md): export instructions.
+- [`verification/degree-six-check.txt`](https://github.com/VentiMath/hurwitz-lattice/blob/2454ba1a60731df582cbd722adbe94b77c72850f/verification/degree-six-check.txt): complete recorded output.
+- [`verification/degree-six-matrices.txt`](https://github.com/VentiMath/hurwitz-lattice/blob/2454ba1a60731df582cbd722adbe94b77c72850f/verification/degree-six-matrices.txt): exact matrices.
+- [`CITATION.cff`](https://github.com/VentiMath/hurwitz-lattice/blob/2454ba1a60731df582cbd722adbe94b77c72850f/CITATION.cff): citation metadata for this code release.
 
 To regenerate the recorded outputs after installing dependencies:
 
@@ -73,7 +73,9 @@ verification and compares its output and matrices with the recorded files.
 
 Cite the tagged release
 [v1.0.0](https://github.com/VentiMath/hurwitz-lattice/releases/tag/v1.0.0)
-when referring to these computations. Later changes will receive new versions.
+when referring to these computations. This release is pinned to commit
+[2454ba1a60731df582cbd722adbe94b77c72850f](https://github.com/VentiMath/hurwitz-lattice/commit/2454ba1a60731df582cbd722adbe94b77c72850f).
+The file links above point to that commit. Later code releases will receive new versions.
 
 Author: **John Clyde, VentiMath**. AI tools assisted with implementation and
 checking under the author's direction. Responsibility for the mathematical
@@ -82,5 +84,5 @@ claims and their presentation rests with the author.
 ## License
 
 The verification code and documentation are released under the
-[MIT License](LICENSE), following the convention of VentiMath's other
+[MIT License](https://github.com/VentiMath/hurwitz-lattice/blob/2454ba1a60731df582cbd722adbe94b77c72850f/LICENSE), following the convention of VentiMath's other
 verification repository. This repository does not redistribute the manuscript.
