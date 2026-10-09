@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this versioned verification code when referring to its computations."
+type: software
+title: "Hurwitz lattice verification"
+authors:
+  - family-names: Clyde
+    given-names: John
+    affiliation: VentiMath
+version: 1.0.0
+date-released: 2026-10-09
+repository-code: "https://github.com/VentiMath/hurwitz-lattice"
+url: "https://github.com/VentiMath/hurwitz-lattice/releases/tag/v1.0.0"
+license: MIT
+abstract: >-
+  Exact-arithmetic verification of the degree-six Brown-Peterson coefficient
+  calculation in Appendix B of The Hurwitz Lattice and the Two-Slice of
+  Quaternionic Real Bordism. Checks integral quaternionic actions, mod-two
+  fixed vectors, two integral identities, the six-by-six coefficient
+  certificate, and the determinant of a two-local orbit basis.
